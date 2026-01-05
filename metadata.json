@@ -1,0 +1,5 @@
+{
+  "name": "Trợ lý Tạo Đề Thi Tương Tự",
+  "description": "Một ứng dụng web sử dụng AI để giúp giáo viên tạo ra các câu hỏi tương tự từ một đề thi có sẵn. Hỗ trợ tải lên file PDF, Word, ảnh hoặc dán văn bản trực tiếp.",
+  "requestFramePermissions": []
+}
