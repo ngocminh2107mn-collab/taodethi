@@ -31,7 +31,7 @@ export const generateSimilarQuestions = async (input: InputContent): Promise<str
             contents: prompt,
         };
     } else if (input.type === 'image') {
-        model = 'gemini-3-flash-preview';
+        model = 'gemini 2.5 Pro';
         const prompt = PROMPT_TEMPLATE.replace('{CONTEXT}', "Nội dung được cung cấp trong hình ảnh đính kèm.");
         requestPayload = {
             model,
